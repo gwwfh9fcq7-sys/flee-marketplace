@@ -1,0 +1,16 @@
+{
+  "name": "flee",
+  "version": "0.3.0",
+  "description": "Privacy-first planner that scores your plan and improve-loops it to its peak. Structured plans in local Markdown, next-action surfacing, approval-gated reminders, and a scored improvement loop with plateau-confirmed rollback.",
+  "author": {
+    "name": "T."
+  },
+  "keywords": [
+    "planning",
+    "productivity",
+    "task-management",
+    "scheduling",
+    "execution"
+  ],
+  "license": "MIT"
+}
