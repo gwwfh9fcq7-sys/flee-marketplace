@@ -1,0 +1,20 @@
+{
+  "name": "flee",
+  "owner": { "name": "T." },
+  "description": "Privacy-first planning tools that work from local Markdown plan files.",
+  "plugins": [
+    {
+      "name": "flee",
+      "source": "./plugins/flee",
+      "description": "Privacy-first planner that scores your plan and improve-loops it to its peak.",
+      "version": "0.3.0",
+      "author": { "name": "T." },
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": ["planning", "productivity", "task-management", "scheduling", "execution"],
+      "strict": false,
+      "commands": ["./commands"],
+      "skills": ["./skills"]
+    }
+  ]
+}
