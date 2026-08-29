@@ -8,7 +8,6 @@ description: >
   wants work scheduled and driven end-to-end to a finished result. Not for simple
   task-list upkeep (adding or completing to-dos). Underpins the /plan, /schedule,
   /next, and /review commands.
-version: 0.3.0
 ---
 
 # Planning method
