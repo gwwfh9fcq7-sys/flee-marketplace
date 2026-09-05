@@ -6,12 +6,12 @@
     {
       "name": "flee",
       "source": "./plugins/flee",
-      "description": "Privacy-first planner that scores your plan and improve-loops it to its peak.",
-      "version": "0.3.0",
+      "description": "Privacy-first planning, improvement loops, and persistent governance-harness design.",
+      "version": "0.3.1+codex.20260829233808",
       "author": { "name": "T." },
       "license": "MIT",
       "category": "productivity",
-      "keywords": ["planning", "productivity", "task-management", "scheduling", "execution"],
+      "keywords": ["planning", "productivity", "task-management", "scheduling", "execution", "governance", "assurance"],
       "strict": false,
       "commands": ["./commands"],
       "skills": ["./skills"]
