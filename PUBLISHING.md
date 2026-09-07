@@ -7,7 +7,7 @@ and `context-preload-audit` plugins. Going live means hosting it so `/plugin ins
 
 - Marketplace name: `flee`
 - Plugin `flee` · Version `0.3.0` · install: `/plugin install flee@flee`
-- Plugin `context-preload-audit` · Version `0.1.0` · install: `/plugin install context-preload-audit@flee`
+- Plugin `context-preload-audit` · Version `0.1.1` · install: `/plugin install context-preload-audit@flee`
 - Both manifests pass `claude plugin validate`.
 - The only edit left is optional: add a `repository` URL to
   `plugins/flee/.claude-plugin/plugin.json` once your GitHub repo exists.

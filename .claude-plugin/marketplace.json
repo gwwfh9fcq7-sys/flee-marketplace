@@ -34,7 +34,7 @@
       "name": "context-preload-audit",
       "source": "./plugins/context-preload-audit",
       "description": "Measure what Claude Code preloads at startup and propose trims that lose no functionality. Propose-only.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "T."
       },
@@ -47,13 +47,7 @@
         "audit",
         "productivity"
       ],
-      "strict": false,
-      "commands": [
-        "./commands"
-      ],
-      "skills": [
-        "./skills"
-      ]
+      "strict": false
     }
   ]
 }
