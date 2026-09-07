@@ -1,11 +1,13 @@
 # Publishing flee
 
 This repo is a Claude plugin **marketplace** named `flee`, containing the `flee`
-plugin. Going live means hosting it so `/plugin install` can reach it. Two routes.
+and `context-preload-audit` plugins. Going live means hosting it so `/plugin install` can reach it. Two routes.
 
 ## State: ready to push
 
-- Marketplace name: `flee` · Plugin: `flee` · Version: `0.3.0`
+- Marketplace name: `flee`
+- Plugin `flee` · Version `0.3.0` · install: `/plugin install flee@flee`
+- Plugin `context-preload-audit` · Version `0.1.0` · install: `/plugin install context-preload-audit@flee`
 - Both manifests pass `claude plugin validate`.
 - The only edit left is optional: add a `repository` URL to
   `plugins/flee/.claude-plugin/plugin.json` once your GitHub repo exists.
@@ -34,8 +36,8 @@ Anyone installs with:
 The commands then namespace under the brand: `/flee:plan`, `/flee:next`,
 `/flee:schedule`, `/flee:review`, `/flee:improve`.
 
-Ship an update by bumping `version` in `plugins/flee/.claude-plugin/plugin.json` and
-pushing. Users get it on `/plugin marketplace update`. (Bumping the version is
+Ship an update by bumping `version` in the plugin's `.claude-plugin/plugin.json` **and**
+its entry in `.claude-plugin/marketplace.json`, then pushing. Users get it on `/plugin marketplace update`. (Bumping the version is
 required — an unchanged version string means existing users see no update.)
 
 ## Route B — the community marketplace (public discovery at claude.com/plugins)
@@ -60,3 +62,12 @@ exclusive — publish A now, submit to B when you want reach.
 - **Scheduling portability.** `/flee:schedule` lists the Cowork scheduled-task tools in
   its `allowed-tools`. In other hosts the scheduled-task tool names differ, so reminders
   may not fire there. The rest of the plugin is host-agnostic.
+
+## Adding another plugin
+
+1. Create `plugins/<name>/` with `.claude-plugin/plugin.json`, `LICENSE`, `README.md`,
+   and `skills/` and/or `commands/`.
+2. Append an entry to `.claude-plugin/marketplace.json` (`source: ./plugins/<name>`,
+   author `T.`, MIT, version `0.1.0`).
+3. Run `claude plugin validate .` and `claude plugin validate plugins/<name>`.
+4. Commit and push; users see it after `/plugin marketplace update`.

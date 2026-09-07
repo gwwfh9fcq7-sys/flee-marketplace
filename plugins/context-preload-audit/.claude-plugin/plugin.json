@@ -1,0 +1,17 @@
+{
+  "name": "context-preload-audit",
+  "version": "0.1.0",
+  "description": "Measure what Claude Code preloads at startup (plugins, skills, SessionStart hooks, desktop extensions) and propose trims that lose no functionality. Propose-only; never edits config; standard-library Python only.",
+  "author": {
+    "name": "T."
+  },
+  "repository": "https://github.com/gwwfh9fcq7-sys/flee-marketplace",
+  "keywords": [
+    "preload",
+    "context-window",
+    "startup-tokens",
+    "audit",
+    "productivity"
+  ],
+  "license": "MIT"
+}
