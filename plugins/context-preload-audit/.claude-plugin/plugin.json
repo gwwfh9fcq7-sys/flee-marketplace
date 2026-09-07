@@ -1,6 +1,6 @@
 {
   "name": "context-preload-audit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Measure what Claude Code preloads at startup (plugins, skills, SessionStart hooks, desktop extensions) and propose trims that lose no functionality. Propose-only; never edits config; standard-library Python only.",
   "author": {
     "name": "T."
