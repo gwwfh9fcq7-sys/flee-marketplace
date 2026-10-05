@@ -7,7 +7,6 @@ description: >
   project or plan as good as it can be, or when the planning method calls for
   refinement between phases. Not for ordinary editing, rewording, or shortening
   requests. Underpins the /improve command.
-version: 0.3.0
 ---
 
 # Improvement loop

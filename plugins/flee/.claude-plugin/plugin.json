@@ -1,10 +1,11 @@
 {
   "name": "flee",
-  "version": "0.3.1+codex.20260829233808",
   "description": "Privacy-first planning, improvement loops, and persistent governance-harness design.",
+  "version": "0.3.1+codex.20260829233808",
   "author": {
     "name": "T."
   },
+  "license": "MIT",
   "keywords": [
     "planning",
     "productivity",
@@ -14,5 +15,10 @@
     "governance",
     "assurance"
   ],
-  "license": "MIT"
+  "commands": [
+    "./commands"
+  ],
+  "skills": [
+    "./skills"
+  ]
 }

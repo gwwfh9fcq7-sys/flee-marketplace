@@ -1,0 +1,36 @@
+{
+  "name": "flee",
+  "version": "0.3.1+codex.20260829233808",
+  "description": "Privacy-first planning, improvement loops, and persistent governance-harness design.",
+  "author": {
+    "name": "T."
+  },
+  "license": "MIT",
+  "keywords": [
+    "planning",
+    "productivity",
+    "task-management",
+    "scheduling",
+    "execution",
+    "governance",
+    "assurance"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Flee",
+    "shortDescription": "Planning, improvement, and governance harnesses.",
+    "longDescription": "Plan work, drive execution, improve artifacts, and design persistent governance harnesses with explicit authority, controls, assurance, recovery, and traceability.",
+    "developerName": "T.",
+    "category": "Productivity",
+    "capabilities": [
+      "Planning",
+      "Local files",
+      "Governance design"
+    ],
+    "defaultPrompt": [
+      "Turn this idea into a practical plan.",
+      "Choose the single best next action from my plan.",
+      "Review this system and propose a governance harness."
+    ]
+  }
+}
