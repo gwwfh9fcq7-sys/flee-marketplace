@@ -35,8 +35,12 @@ Scores are comparable only when they use the same frozen rubric and mission lock
 
 ## Readiness verdicts
 
+Evaluate `REJECT` first. For sufficient evidence and passing critical gates, use the unrounded weighted score to choose exactly one of the other verdicts.
+
 - `ACCEPT`: all critical gates pass, score ≥ 85%, and no dimension is below 3.
-- `CONDITIONAL`: critical gates pass, score 70–84%, with owned, dated corrections.
+- `CONDITIONAL`: critical gates pass, score ≥ 70%, and either score < 85% or at least one dimension is below 3.
 - `REJECT`: any critical gate fails, score < 70%, or the evidence is insufficient to evaluate.
+
+For every `CONDITIONAL` verdict, record owned, dated corrections. For example, scoring every dimension 5 except Operability and usability at 2 yields 97% and is `CONDITIONAL`. Assign an owner and correction date for the deficient dimension, then retest before considering `ACCEPT`.
 
 For every failed test record expected result, observed result, impact, owner, correction, retest condition, and status. Re-score after correction and preserve both results.
