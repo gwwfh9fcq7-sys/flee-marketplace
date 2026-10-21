@@ -1,7 +1,7 @@
 # Publishing flee
 
 This repo is a Claude plugin **marketplace** named `flee`, containing the `flee`
-and `context-preload-audit` plugins. Going live means hosting it so `/plugin install` can reach it. Two routes.
+and `context-preload-audit` plugins, plus `book` (Book Visualizer). Going live means hosting it so `/plugin install` can reach it. Two routes.
 
 ## State: ready to push
 
@@ -64,6 +64,12 @@ exclusive — publish A now, submit to B when you want reach.
   may not fire there. The rest of the plugin is host-agnostic.
 
 ## Adding another plugin
+
+Book Visualizer is maintained in `plugins/book`. Its install identifier is
+`book@flee`; the full-pack command is `/book:book`. Book has an independent
+Semantic Versioning history, synchronized Claude/Codex/marketplace versions,
+GitHub issue templates, and a reproducible archive packager. See
+[`plugins/book/RELEASING.md`](plugins/book/RELEASING.md) for its release procedure.
 
 1. Create `plugins/<name>/` with `.claude-plugin/plugin.json`, `LICENSE`, `README.md`,
    and `skills/` and/or `commands/`.
