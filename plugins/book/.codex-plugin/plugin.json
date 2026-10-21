@@ -1,0 +1,35 @@
+{
+  "name": "book",
+  "version": "0.2.0",
+  "description": "Turn a book title or cover into twelve visual learning formats, with English defaults and source-aware content.",
+  "author": {
+    "name": "T."
+  },
+  "license": "MIT",
+  "repository": "https://github.com/gwwfh9fcq7-sys/flee-marketplace",
+  "homepage": "https://github.com/gwwfh9fcq7-sys/flee-marketplace/tree/main/plugins/book",
+  "keywords": [
+    "books",
+    "visual-learning",
+    "mindmaps",
+    "flashcards",
+    "study",
+    "infographics"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Book Visualizer",
+    "shortDescription": "Twelve visual learning formats from a book.",
+    "longDescription": "Create mindmaps, sketchnotes, flashcards, comics, infographics, cheatsheets, posters, roadmaps, chapter maps, theme networks, concept cards, and 30-day action plans. English by default; image generation requires a capable host.",
+    "developerName": "T.",
+    "category": "Productivity",
+    "capabilities": [
+      "Visual learning",
+      "Book study"
+    ],
+    "defaultPrompt": [
+      "Create a complete visual learning pack for this book.",
+      "Make only a mindmap for this book."
+    ]
+  }
+}

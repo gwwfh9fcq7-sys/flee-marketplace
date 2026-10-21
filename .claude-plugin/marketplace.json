@@ -42,6 +42,25 @@
         "productivity"
       ],
       "strict": false
+    },
+    {
+      "name": "book",
+      "source": "./plugins/book",
+      "description": "Twelve visual learning formats from a book title or cover, in English by default.",
+      "version": "0.2.0",
+      "author": {
+        "name": "T."
+      },
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "books",
+        "visual-learning",
+        "mindmaps",
+        "flashcards",
+        "study"
+      ],
+      "strict": true
     }
   ]
 }

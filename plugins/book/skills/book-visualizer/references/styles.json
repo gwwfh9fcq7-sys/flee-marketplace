@@ -1,0 +1,21 @@
+{
+  "default": "illustrated",
+  "all_order": ["illustrated", "ink", "editorial"],
+  "presets": {
+    "illustrated": {
+      "label": "Illustrated",
+      "approach": "Expressive visual storytelling",
+      "directions": "Colorful, format-adapted illustrations; warm paper or light backgrounds; expressive icons, watercolor or painterly scenes where useful. Use visual metaphors and hierarchy. Preserve a recognizable format, not just decorated text."
+    },
+    "ink": {
+      "label": "Monochrome Ink",
+      "approach": "Hand-drawn explanation",
+      "directions": "Black ink on warm white paper, pen hatching, hand-ruled borders, doodles and readable handwritten-style headings. Use line weight and whitespace rather than color to establish hierarchy. Preserve legible body text."
+    },
+    "editorial": {
+      "label": "Editorial",
+      "approach": "Typographic and geometric explanation",
+      "directions": "White background, near-black sans-serif typography, restrained red accents and gray, flat geometric symbols, clear grids and strong hierarchy. Avoid painterly textures and handwriting. Comic characters may use neutral skin tones. Preserve method-specific diagrams and narrative panels."
+    }
+  }
+}
