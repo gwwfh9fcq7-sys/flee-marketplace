@@ -1,6 +1,6 @@
 ---
 description: Generate only format 09 (chaptermap) for a book
-argument-hint: "[book title and author, or attached cover]"
+argument-hint: "[book title and author, or attached cover] [--style illustrated|ink|editorial | --styles all]"
 ---
 
 Book input: $ARGUMENTS

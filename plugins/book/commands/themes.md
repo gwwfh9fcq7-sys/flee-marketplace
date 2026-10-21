@@ -1,6 +1,6 @@
 ---
 description: Generate only format 10 (themes) for a book
-argument-hint: "[book title and author, or attached cover]"
+argument-hint: "[book title and author, or attached cover] [--style illustrated|ink|editorial | --styles all]"
 ---
 
 Book input: $ARGUMENTS

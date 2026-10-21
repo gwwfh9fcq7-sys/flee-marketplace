@@ -1,6 +1,6 @@
 # Book Visualizer
 
-**Version 0.1.0** · A plugin in the **Flee** marketplace.
+**Version 0.2.0** · A plugin in the **Flee** marketplace.
 
 Turn a book title or cover into twelve separate visual learning images. Conversation and deliverables default to English. A different language requires an explicit request or confirmation.
 
@@ -41,6 +41,17 @@ Attach a cover or append a title and author. Single-format commands generate onl
 
 Codex packaging follows this repository's existing `.codex-plugin/plugin.json` convention. Import the `plugins/book` directory through your host's supported plugin mechanism. This repository upload does not install a plugin into ChatGPT or register account-wide slash commands.
 
+## Styles and samples
+
+Choose `--style illustrated` (default), `--style ink`, or `--style editorial`. Add `--styles all` only when you want all three styles. A full pack then produces 36 images; a single-format command produces 3. Without that option the counts remain 12 and 1.
+
+```text
+/book:book The Creating Brain by Nancy C. Andreasen --style ink
+/book:mindmap The Creating Brain by Nancy C. Andreasen --styles all
+```
+
+The [sample gallery](../../examples/book/the-creating-brain/README.md) demonstrates **12 learning methods × 3 visual styles**, using 12 reused illustrated originals plus 24 newly rendered variants. The gallery and downloadable samples live outside the installable plugin. See the [style guide](skills/book-visualizer/references/styles.md) for learning-method differences and preserved structures.
+
 ## Requirements and output
 
 A host with image generation is required for finished images. Source access or supplied book material is needed to verify detailed contents and quotations. Tool names, permissions, available resolutions, and download behavior depend on the host. The plugin bundles instructions, not an image service, API key, or provider subscription.
@@ -53,7 +64,7 @@ A title or cover is not the full book. The workflow verifies chapter order befor
 
 This repository is the source of truth. [Report an issue](https://github.com/gwwfh9fcq7-sys/flee-marketplace/issues/new/choose), including **book**, plugin version, host, invocation, and expected versus actual output. Remove private book uploads and sensitive material from public reports.
 
-See [CHANGELOG.md](CHANGELOG.md) for versions and [RELEASING.md](RELEASING.md) for the release procedure. Existing generated book packs are not part of the plugin package.
+See [CHANGELOG.md](CHANGELOG.md) for versions and [RELEASING.md](RELEASING.md) for the release procedure. The user-approved public sample library is versioned under `examples/book`; other generated packs and private uploads are excluded. The sample images are not bundled in the plugin installation archive.
 
 ## Validation
 

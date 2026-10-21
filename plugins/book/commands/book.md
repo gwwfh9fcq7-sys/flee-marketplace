@@ -1,6 +1,6 @@
 ---
 description: Create all twelve visual learning formats for a book
-argument-hint: "[book title and author, or attached cover]"
+argument-hint: "[book title and author, or attached cover] [--style illustrated|ink|editorial | --styles all]"
 ---
 
 Book input: $ARGUMENTS

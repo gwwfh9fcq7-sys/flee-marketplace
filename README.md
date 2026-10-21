@@ -14,6 +14,8 @@ First add the marketplace in a Claude-compatible host:
 /plugin marketplace add gwwfh9fcq7-sys/flee-marketplace
 ```
 
-Book Visualizer v0.1.0 uses `/book:book` for the full pack and `/book:mindmap` (or another format) for one visual. Codex entrypoints and host requirements are documented in the [Book guide](plugins/book/README.md).
+Book Visualizer v0.2.0 uses `/book:book` for the full pack and `/book:mindmap` (or another format) for one visual. Codex entrypoints and host requirements are documented in the [Book guide](plugins/book/README.md).
 
 Report Book problems or improvements through [GitHub Issues](https://github.com/gwwfh9fcq7-sys/flee-marketplace/issues/new/choose). Include the plugin version and host. Follow the [Book release procedure](plugins/book/RELEASING.md) for version changes.
+
+[Browse the Book sample gallery](examples/book/the-creating-brain/README.md): twelve learning methods in three visual styles, with 36 full-resolution English images.

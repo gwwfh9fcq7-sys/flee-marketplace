@@ -4,6 +4,14 @@ Versions follow Semantic Versioning. Book releases use the tag convention `book-
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-10-21
+
+- Add three visual presets: illustrated, monochrome ink, and editorial.
+- Add explicit single-style and all-styles selection while preserving default output counts.
+- Demonstrate all twelve learning methods in all three styles with 36 English sample images, including 12 reused originals.
+- Add a comparison gallery, provenance and coverage manifest, learning-method guide, and sample integrity checks.
+- Keep demonstration assets outside the installable plugin archive. Tracks issue #7.
+
 ## [0.1.0] - 2026-10-21
 
 Initial marketplace package. Tracks [#4](https://github.com/gwwfh9fcq7-sys/flee-marketplace/issues/4).

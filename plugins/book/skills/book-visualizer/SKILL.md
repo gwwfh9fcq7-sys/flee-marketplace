@@ -35,6 +35,12 @@ Use reliable knowledge, available sources, and any user-supplied book material. 
 11. **MENTALMODELS** (`/mentalmodels`): The verified mental models from the book, each with a definition and example. Distinguish models explicitly taught by the author from interpretive connections.
 12. **ACTION PLAN / BOOKTOACTION** (`/action`): A practical 30-day plan based on the book, with daily actions, weekly milestones, and reflection prompts. Label the schedule as an original application of the book.
 
+## Style selection
+
+Read `references/styles.md` and `references/styles.json` in this skill for preset definitions, learning methods, and review requirements. Default to `illustrated`. An explicit `--style illustrated`, `--style ink`, or `--style editorial` selects one preset. An explicit `--styles all` selects all three. Interpret style options separately from the book title; plain-language style requests also apply.
+
+A normal full pack still contains twelve images, and a normal single-format request contains one. Only an explicit all-styles request expands these to thirty-six or three images respectively. Preserve the requested learning format in every style; styles must differ through typography, mark-making, composition, palette, and rendering rather than recoloring alone. Keep source scope and learning content consistent across variants. Use style-aware filenames and a small style label when generating preset variants. Do not insert the word ONLY or other brief instructions into image headings.
+
 ## Visual production
 
 - Put Book Title + Author in the header of every visual.
@@ -42,7 +48,7 @@ Use reliable knowledge, available sources, and any user-supplied book material. 
 - Make each format visually distinct, using purposeful colors, icons, doodles, diagrams, and whitespace rather than plain text blocks.
 - Generate each requested format as a separate high-resolution image with the available image generation tool; follow that tool's current instructions. Do not substitute text prompts for completed images or claim images were generated when they were not.
 - Plan concise, accurate content before rendering. Prioritize readable labels and text. Use the highest suitable supported resolution and aspect ratio; do not promise unsupported dimensions or instant generation.
-- Provide individual downloadable images, clearly named in sequence, where the tool supports downloads. A full pack has twelve separate primary images. Offer additional individual card files only if requested.
+- Provide individual downloadable images, clearly named in sequence, where the tool supports downloads. A full pack has twelve separate primary images per selected style. Offer additional individual card files only if requested.
 - Inspect returned visuals when possible and repair substantive text, layout, cropping, and numbering errors before delivery. If generation is blocked or incomplete, state which outputs remain.
 - After the requested outputs are generated, ask exactly: "Want me to export this pack as PDF or generate wallpapers from it?"
 
